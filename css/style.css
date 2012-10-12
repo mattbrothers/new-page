@@ -221,11 +221,6 @@ h5 {
   background: url(../img/app2.png) center bottom repeat-y fixed #222;
   position: relative;
   z-index: 4;
-  -webkit-transition: all 0.1s linear;
-  -moz-transition: all 0.1s linear;
-  -o-transition: all 0.1s linear;
-  -ms-transition: all 0.1s linear;
-  transition: all 0.1s linear;
 }
 .section4 {
   height: 1200px;
@@ -260,24 +255,29 @@ h5 {
 }
 .albums-holder {
   background: url(../img/albums.jpg) 0 0 repeat;
-  height: 190px;
+  height: 100px;
   position: relative;
-  z-index: 1;
-  width: 860px;
-  top: 356px;
+  z-index: 2;
+  width: 891px;
+  top: 400px;
   left: 50%;
-  margin-left: -430px;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  -ms-transition: all 0.2s linear;
-  transition: all 0.2s linear;
+  margin-left: -450px;
 }
 .albums {
   background: #fff;
-  height: 190px;
+  height: 100px;
   position: relative;
   z-index: 1;
+}
+.bar {
+  background: url(../img/bar.png) 0 0 repeat;
+  height: 9px;
+  position: relative;
+  z-index: 2;
+  width: 891px;
+  top: 400px;
+  left: 50%;
+  margin-left: -450px;
 }
 .radio {
   border-top: 1px solid #ccc;
@@ -285,7 +285,7 @@ h5 {
 }
   .radio img {
     width: 891px;
-    margin: -170px auto 60px auto;
+    margin: -70px auto 0 auto;
   }
     .radio h3, .radio p {
       width: 500px;

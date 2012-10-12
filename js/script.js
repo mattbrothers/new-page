@@ -17,6 +17,10 @@ function scrollEffect() {
     'background-position': '' - (-scrollPos / 2) + "px"
   });
 
+  $('.bar').css({
+    'background-position': '' - (+scrollPos / 2) + "px"
+  });
+
   $('.intro').css({
     'background-position': 'center ' + (-scrollPos / 2) + "px"
   });
